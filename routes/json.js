@@ -16,6 +16,6 @@ router.post('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
     const id = req.params.id
-    res.send(`<h1>O id da pagina é ${id}</h1>`)
+    res.send(`<h1>The id of the page is ${id}</h1>`)
 })
 module.exports = router
